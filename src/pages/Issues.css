@@ -1,0 +1,51 @@
+/* src/pages/Issues.css */
+
+h4{
+    color: #6a0dad;
+}
+
+.issues-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+}
+
+.issue-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.issue-form h2 {
+    color: #6a0dad;  /* Purple heading */
+}
+
+.success-message {
+    color: green;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Modal Styling */
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #6a0dad;
+    box-shadow: 24px;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
